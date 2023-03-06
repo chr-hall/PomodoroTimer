@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Pictures/brasa.png" type="image/x-icon">
+    <link rel="stylesheet" href="Pomodoro.css">
+    <title>Pomodoro</title>
+</head>
+
+<body>
+
+    <center>
+        <p></p> <img src="Pictures\logotypeHeader.png" height="100">
+        </a></p>
+        <h3> Hur många minuter <em>behöver</em> du fokusera?</h3>
+    </center>
+
+    <div class="center">
+        <div class="centered-column">
+            <div class="button-row" id="btn">
+
+                <button class="button" onclick="userMinutes=20">20</button>
+
+                <button class="button" onclick="userMinutes=25">25</button>
+                <button class="button" onclick="userMinutes=30">30</button>
+                <button class="button" onclick="userMinutes=35">35</button>
+                <button class="button" onclick="userMinutes=1">40</button>
+
+            </div>
+            <div class="start" onclick="startCount(minutes); show()" id="startBtn">
+                Start
+            </div>
+            <div class="stop" onclick="isStopped=true; hide()">
+                Stop
+            </div>
+        </div>
+    </div>
+
+    <div class="center">
+        <div class="timer">
+            <div class="minutes"></div>
+            <div class="seconds"></div>
+        </div>
+    </div>
+    <div class="message"> 
+    </div> 
+    
+    <div class="player"><iframe width="560" height="315" src="https://www.youtube.com/embed/L_LUpnjgPso?controls=0"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe></div>
+
+
+    <script src="Pomodoro.js"></script>
+</body>
+
+</html>

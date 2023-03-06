@@ -1,0 +1,121 @@
+@font-face {
+    font-family: digitalReadout;
+    src: url(Fonts/SfDigitalReadoutHeavy-AwVg.ttf);
+  }
+
+
+body {
+    font-family: digitalReadout;
+    font-size:x-large;
+    background-color: #e6e6e6;
+    color:#4a4a4a;
+    padding:5px 10px;
+    
+}
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top:3em;
+}
+
+.timer {
+    position: absolute;
+    font-size: 90px;
+    display: flex;
+    padding: 30px;
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    box-shadow: 0px 0px 5px 0px #888888;
+    justify-content: center;
+    padding-left: 35px;
+}
+
+.seconds {
+    padding: 10px;
+}
+
+.minutes {
+    padding: 10px;
+    padding-left: 0;
+}
+
+h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding:2px 2px;
+}
+
+button{
+    padding:0.5em 1em;
+    border-width: 1px;
+    appearance: none;
+}
+
+
+/* CLASSES */
+
+.center{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top:3em;
+}
+
+.centered-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.start{
+    
+    margin-top: 1em;
+    background-color: #b3d9c3;
+    box-shadow: 0px 0px 5px 0px #888888;
+    border:solid 1px #4a4a4a;
+    color:#4a4a4a;
+    font-family: sans-serif;
+    padding:5px 10px;
+}
+
+.start:hover {
+    background-color: #8fad9c;
+  }
+
+.stop{
+    margin-top: 1em;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 5px 0px #888888;
+    border:solid 1px #4a4a4a;
+    color:#4a4a4a;
+    font-family: sans-serif;
+    padding:5px 10px;
+}
+
+.button-row{
+    display:flex;
+    column-gap:0.5em;
+    
+}
+
+.message {
+    display: flex;
+    justify-content:center;
+    margin-top:10em;
+    font-size: xx-large;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+}
+
