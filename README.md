@@ -5,6 +5,6 @@ Set the timer and start working. A sound notification will play when it's time f
 
 Turn on the fireplace further down the page for some extra ambience. 
 
-[Click here](https://chr-hall.github.io/) to get started.   
+[Click here]([https://chr-hall.github.io/](https://chr-hall.github.io/PomodoroTimer/)) to get started.   
 
 Made as an excercise in Javascript and CSS. 
